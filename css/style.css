@@ -1,0 +1,305 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,regular,500,600,700&display=swap");
+@font-face {
+    font-family: 'Kazimir';
+    src: url('../fonts/Kazimir-Light.woff2') format('woff2'), url('../fonts/Kazimir-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kazimir';
+    src: url('../fonts/Kazimir-LightItalic.woff2') format('woff2'), url('../fonts/Kazimir-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Kazimir';
+    src: url('../fonts/Kazimir-Bold.woff2') format('woff2'), url('../fonts/Kazimir-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html {
+    font-size: 16px;
+    /* по умолчанию */
+}
+
+body {
+    line-height: 1;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+
+/* --------------------- */
+
+
+/* ------GLOBAL---------- */
+
+span {
+    color: #ff0000;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+mark {
+    text-decoration: overline;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    color: #3be;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Rubik Beastly", fantasy;
+}
+
+p,
+ol>li {
+    text-indent: 30px;
+}
+
+.img {
+    text-align: center;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+
+/* -------HEADER--------- */
+
+header {
+    text-align: right;
+    text-shadow: -195px 25px 2px #000;
+}
+
+header p {
+    font-size: 30px;
+}
+
+header a {
+    font-weight: 700;
+}
+
+nav {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav>ul>li>ul {
+    text-transform: lowercase;
+}
+
+
+/* ------MAIN-------- */
+
+.main p {
+    text-decoration: line-through;
+    text-align: justify;
+    color: #fc55ee;
+}
+
+#bio {
+    font-family: "Kazimir", serif;
+}
+
+#edu {
+    font-weight: 300;
+    color: #ee3456;
+}
+
+#edu h3~*,
+#edu mark {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+#career {
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+#career p>span {
+    word-spacing: 20px;
+}
+
+#career p~p {
+    line-height: 222%;
+    text-align: right;
+}
+
+#political>p {
+    text-align: right;
+}
+
+#political h3~* {
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+#political h3 {
+    text-align: center;
+    text-shadow: 3px 1px 1px #46d;
+}
+
+#personallife {
+    text-align: justify;
+}
+
+#personallife h3 {
+    text-align: right;
+}
+
+#personallife h3~* {
+    text-decoration: overline underline line-through;
+    color: #12f456;
+    letter-spacing: 0;
+    word-spacing: 15px;
+    text-shadow: 0px 3px 3px #345;
+}
+
+#creation {
+    line-height: 150%;
+}
+
+#creation mark,
+#creation span {
+    text-transform: lowercase;
+    font-family: "Rubik Beastly";
+}
+
+#tv .li+* {
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 100px 3px 5px #000;
+}
+
+#tv .li~li {
+    text-decoration: line-through;
+    font-style: oblique;
+}
+
+#cinema {
+    font-weight: 100;
+    text-align: right;
+}
+
+#theatre h3~* {
+    color: #6be;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+#awards {
+    font-size: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#awards span {
+    text-shadow: 2px 0 1px #6be;
+}
+
+#awards ul li~li {
+    font-style: oblique;
+}
+
+
+/* ------FOOTER-------- */
+
+#notes h2 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#notes mark {
+    font-size: 12px;
+}
+
+#notes h2~* {
+    font-weight: 300;
+    color: #eb5423;
+}
+
+#notes .lii~li {
+    font-weight: 700;
+    color: #6ddb;
+}
+
+#links h2 {
+    text-shadow: 4px 0 2px #eb5423;
+}
+
+#links h2~* {
+    text-shadow: 240px 0 2px #eb5423, 480px 0 5px #ee3456;
+}
+
+#links a {
+    text-decoration: underline;
+}
+
+.ontop {
+    text-align: right;
+}
